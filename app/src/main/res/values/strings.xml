@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyTasks</string>
+    <string name="task_name">Task Name</string>
+    <string name="task_date">Task Date</string>
+    <string name="task_name_hint">Task name here</string>
+    <string name="task_date_hint">Task date here</string>
+    <string name="clear">CLEAR</string>
+    <string name="save">SAVE</string>
+</resources>
