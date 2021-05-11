@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent" 
+    android:layout_height="150dp" 
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+    
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:src="@drawable/task">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/task_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:text="Task One Here"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#FF5722">
+        </TextView>
+
+        <TextView
+            android:id="@+id/task_date"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:text="2021-01-01"
+            android:textSize="23sp"
+            android:padding="10dp"
+            android:textColor="#009688">
+        </TextView>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:text="FINISH"
+        android:background="@color/colorAccent"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:onClick="complete"
+        ></Button>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/task_id"></TextView>
+</LinearLayout>
