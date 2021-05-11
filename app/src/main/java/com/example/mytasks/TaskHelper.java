@@ -19,6 +19,10 @@ public class TaskHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+//        if(oldVersion==1 && newVersion == 2){
+//            String sql1 = "ALTER TABLE tasks ADD COLOUMN created_date DATE";
+//            db.execSQL(sql1);
+//        }
 
     }
 }

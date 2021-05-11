@@ -60,6 +60,7 @@
             android:textColor="#fff"
             android:background="@color/colorPrimary"
             android:layout_marginRight="10dp"
+            android:onClick="clear"
             ></Button>
 
         <Button
@@ -70,6 +71,7 @@
             android:textColor="#fff"
             android:background="@color/colorAccent"
             android:layout_marginLeft="10dp"
+            android:onClick="save"
             ></Button>
 
     </LinearLayout>
